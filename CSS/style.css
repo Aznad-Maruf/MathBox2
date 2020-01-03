@@ -1,0 +1,150 @@
+body{
+  background-color: #f4f4f4;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.clr{
+  clear: both;
+}
+
+#mainHeader{
+  background-color: #6e6556;
+  color: #fff;
+  border-bottom: 2px solid coral;
+}
+
+#mainHeader h1{
+  float: left;
+}
+
+#navBar{
+  padding-top: 10px;
+  float: right;
+}
+
+#navBar li{
+  display: inline;
+}
+
+#navBar ul{
+  padding: 0px;
+  list-style: none;
+}
+
+#navBar a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  padding-right: 15px;
+}
+
+#navBar a:hover{
+  color: coral;
+}
+
+#showcase{
+  background-image: url("../images/Mandelbort2.png");
+  background-position: center left;
+  min-height: 380px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-repeat: no-repeat;
+}
+
+#showcase h1{
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+#main{
+  float: left;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#sideBar{
+  float: right;
+  width: 30%;
+  color: #fff;
+  background: #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#mainFooter{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+#equationInput{
+  height: 38px;
+  padding: 0px;
+  font-size: 20px;
+  margin-right: 20px;
+  display: block;
+  margin: 5px;
+}
+
+#button{
+  background-color: coral;
+  font-size: 20px;
+  height: 38px;
+  min-width: 100px;
+  color: #fff;
+  border: none;
+}
+
+#form{
+  text-align: center;
+}
+
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.dropdown:hover {
+     /* background: #fc6b03; */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+}
+
+.dropdown:hover .dropdown-menu a:hover {
+    color: blue;
+}
