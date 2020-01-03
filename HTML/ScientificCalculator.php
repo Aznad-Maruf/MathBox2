@@ -118,7 +118,7 @@
 
         </div>
 
-        <div class=" dropdown">
+        <!-- <div class=" dropdown">
         <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Action
         </button>
@@ -129,7 +129,7 @@
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Separated link</a>
         </div>
-        </div>
+        </div> -->
 
     </div>
     <!-- End of container -->
